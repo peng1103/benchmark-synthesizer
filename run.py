@@ -109,8 +109,7 @@ def main():
 	fastmodel_workload('model', ' ')
 
 	# functions to implement ###
-	file_list = ['crc']
-	# file_list = ['fluid-t2', 'fluid-t1', 'fluid-t0', 'swap-t2', 'swap-t1', 'swap-t0']
+	file_list = ['swap-t2', 'swap-t1', 'swap-t0']
 	for filename in file_list:
 		filepath = os.path.join(os.path.dirname(__file__), os.path.join("workload_files", filename))
 
