@@ -106,10 +106,11 @@ def main():
 	# model_gen()
 
 	## 读取模板的MICA，保存数据mat ###
-	fastmodel_workload('model', ' ')
+	#fastmodel_workload('model', ' ')
 
 	# functions to implement ###
-	file_list = ['swap-t2', 'swap-t1', 'swap-t0']
+	# file_list = ['swap-t2', 'swap-t1', 'swap-t0']
+	file_list = ['bitcnts','qsort','susan']
 	for filename in file_list:
 		filepath = os.path.join(os.path.dirname(__file__), os.path.join("workload_files", filename))
 
